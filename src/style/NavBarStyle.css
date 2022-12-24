@@ -1,0 +1,39 @@
+
+.navBar {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.searchBar {
+    display: flex;
+    /* justify-content: space-between; */
+    border: solid 1px ;
+    border-radius: 30px;
+    border-color: #007193;
+    margin: 0 100px;
+    /* width: 370px; */
+    background-color: white;
+    padding: 3px;
+}
+
+.searchBar > input {
+    background-color: transparent;
+    border-color: transparent;
+    width: 300px;
+}
+
+.logInOut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SearchImg {
+    width: 30px;
+    margin-top: 1px;
+}
+.searchLink{
+    width: fit-content;
+}

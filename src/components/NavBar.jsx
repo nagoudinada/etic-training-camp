@@ -1,31 +1,37 @@
-import React from 'react'
-import {profile , search , chat, home, fav} from './assets/icons.js'
-
+import React, { useState } from 'react'
+import profile from '../assets/icons/profile.svg'
+import search from '../assets/icons/search.svg'
+import chat from '../assets/icons/chat.svg'
+import home from '../assets/icons/home.svg'
+import fav from '../assets/icons/fav.svg'
+import '../style/NavBarStyle.css'
 
 
 function NavBar() {
+    const [userName,setUsername] = useState(null);
+
   return (
 
-        <nav>
+        <nav className='navBar'>
             <a href="/">Logo</a>
-            <div id='searchBar'>
+            <div className='searchBar'>
                 <input type="text" placeholder='Search...' />
-                <button id='searchBarButton'>
-                    <img src="search" alt="/" />
-                </button>
+                <a className="searchLink">
+                    <img src={search} alt="/" className='SearchImg' />
+                </a>
             </div>
-
-            <div className='logInOut'>
+            {
+                !userName ?  <div className='logInOut'>
                 <button>Sing Up</button>
                 <button>Sing In</button>
+            </div>:      <div id='icons' >
+                <a href="/"><img src={home} alt="/" /></a>
+                <a href="/"><img src={fav} alt="/" /></a>
+                <a href="/"><img src={chat} alt="" /></a>
+                <a href="/"><img src={profile} alt="/" /></a>
             </div>
+            }
 
-            <div id='icons'>
-                <a href="/"><img src="home" alt="/" /></a>
-                <a href="/"><img src="fav" alt="/" /></a>
-                <a href="/"><img src="chat" alt="" /></a>
-                <a href="/"><img src="profile" alt="/" /></a>
-            </div>
         </nav>
 
 
