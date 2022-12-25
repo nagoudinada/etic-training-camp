@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,3 +39,204 @@
 .read-the-docs {
   color: #888;
 }
+/* */
+.App {
+  width: 100vw;
+  min-height: 100vh;
+}
+.hero {
+  width: 65%;
+}
+.filtbar{
+width: 55%;
+  max-width: 1280px;
+gap: 15px;
+background-color: #F1F3F4;
+  display : flex;
+  align-items: center;
+  padding:5px;
+  border-radius: 5px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+.tyear{
+  color:black;
+  background:#F1F3F4 ;
+}
+
+.carname{
+  display : flex;
+  margin-right: 1rem;
+}
+.year{
+  display : flex;
+  margin-right: 1rem;
+
+
+}
+.button{
+height: 20px;
+color:black;
+  background:#F1F3F4 ;
+}
+.sel{
+  height: 20px;
+  color:black;
+  background:#F1F3F4 ;
+
+}
+.sort{
+  color:black;
+  background:#F1F3F4 ;
+}
+.tall{
+  padding-top: 5px;
+  width: 20px;
+  margin-right: 15px;
+}
+.cards{
+  width: 20px;
+  margin-right: 15px;
+
+
+}
+.select{
+  display : flex;
+  margin-right: 1rem;
+
+}
+.choose{
+  display : flex;
+  margin-right: 1rem;
+
+}
+.h5{
+  margin-right: 5rem;
+
+}
+
+.najma{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+.container {
+  padding: 16px;
+  margin: 15px auto;
+}
+
+.result {
+  text-align: center;
+  margin-bottom: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+}
+
+.star {
+  position: relative;
+  cursor: pointer;
+}
+
+.stars_radio-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+.anc{
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  width: 50px;
+}
+
+.cu{
+  border: solid  #E5E5E5;
+  border-width: thin;
+position: absolute;
+border-radius: 3px;
+display: inline-block;
+  color:black;
+  background-color: white;
+  /* margin: 10px; */
+   padding: 10px;
+  border-color: grey;
+  top: 50%;
+  translate:50%;
+  text-align: center;
+
+}
+.drahm{
+  font-size: small;
+  height: 0px;
+  text-align: center;
+}
+.tono{
+  height: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+  padding-bottom: 0px;;
+  margin-top: 0px;
+  border-top: 0px;
+  padding-top: 0px;;
+}
+.drahm{
+  width: 55%;
+  /* max-width: 1280px; */
+  margin-top: 0px;
+  border-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+.img{
+  height: 100%;
+ width: 100%;
+ object-fit: contain;
+}
+/* .photo{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  width: 500px;
+  height: 200px;
+}*/
+
+.kolech{
+   border:2px solid grey;
+/* padding: 20px 40px 40px;
+  max-width: 600px; */
+}
+.photo{
+  border: 1px solid white ;
+  border-radius: 2px;
+  position:absolute;
+width:100px;
+height:100px;
+bottom:40px;
+left:30px;
+ /*  width: 250px;
+  float: left; */
+}
+.ligne1{
+display: inline-flex;
+margin : 0px;
+
+   /*  width: 50%;
+  height: 100px */;
+  /* white-space: nowrap;
+  overflow-x: auto; */
+}
+.notcar{
+  position:relative;
+width:100%;
+ /*  position: relative;
+  padding:50px; */
+} 
