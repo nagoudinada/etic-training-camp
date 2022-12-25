@@ -1,0 +1,90 @@
+.SideFilter {
+    width: 20%;
+}
+
+.singleFilter {
+    background-color: #FAFAFB;
+    border-radius: 10px;
+    /* padding: 10px auto; */
+    padding-bottom: 1px;
+    
+}
+
+.Title {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+.rangeNum {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.MuiSlider-valueLabelCircle {
+    position: relative;
+    height: 17px;
+}
+
+.MuiSlider-valueLabelLabel {
+    width: 16px;
+    left: -9px;
+    position: absolute;
+    top: 0px;
+}
+
+.css-187mznn-MuiSlider-root {
+    width: 80% !important;
+}
+
+
+.colorsTitle {
+    margin-left: 1rem;
+}
+
+.ColorMap {
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 30px;
+    width: 80% !important;
+}
+
+.brandsNames {
+    display: flex;
+    flex-direction: column;
+}
+
+.brandsClick {
+    text-decoration: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin-left: -62px !important;
+}
+
+.singleFilter input {
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    margin-left: 6%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.gridButton {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fuelClick {
+    text-decoration: none;
+    background-color: transparent;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin-right: 5%;
+    padding-left: 60%;
+}

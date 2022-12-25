@@ -5,6 +5,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
 }
   
 .searchBar {
@@ -23,6 +24,8 @@
     background-color: transparent;
     border-color: transparent;
     width: 300px;
+    outline: none;
+    margin-left:2%
 }
 
 .logInOut {
@@ -32,8 +35,11 @@
 
 .SearchImg {
     width: 30px;
-    margin-top: 1px;
+
 }
+
 .searchLink{
+    margin-top: 5px;
     width: fit-content;
 }
+

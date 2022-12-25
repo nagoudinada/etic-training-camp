@@ -1,0 +1,49 @@
+.Banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #007193;
+    border-radius: 30px;
+    margin: 2% auto;
+}
+
+.BannerTitle {
+    display: flex;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+.BannerText {
+    color: white;
+    font-size: large;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 40px;
+}
+
+.leftBanner {
+    margin-left: 5%;
+}
+
+.leftBanner button{
+    width: 30%;
+    background-color: white;
+    color: #007193;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.rightBanner {
+    margin-right: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50%;
+    
+}
+
+.rightBanner img{
+    border-radius: 30px;
+}
+

@@ -1,0 +1,56 @@
+.Footerclass {
+    margin-top: 10%;
+    background-color: #007193;
+}
+
+.Footer {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    display: flex;
+    width: 100% !important;
+    margin-bottom: 1rem;
+}
+
+.column {
+    margin-bottom: 5%;
+}
+
+.columnTitle {
+    margin: 5% 0;
+    color: white;
+    font-weight: 600;
+}
+
+.icons {
+    height: 1rem;
+}
+
+.listOptions ul{
+    list-style: none;
+}
+
+.listOptions a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.footerIcons {
+    display: flex;
+}
+
+.footerIcons a {
+    margin-right: 66px;
+}
+
+.rightsReserved {
+    background-color: #007193;
+    color: white;
+    font-weight: 250;
+    font-size: 12px;
+    margin: 0 40%;
+}
+

@@ -1,0 +1,54 @@
+.SignIn {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 10rem; */
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.inputs input{
+    outline: none;
+    border-radius: 5px;
+    border-color: #007193;
+}
+
+.inputEmail {
+    margin-bottom: 1rem;
+}
+
+.inputPassword {
+    margin-bottom: 3rem;
+}
+
+
+.title {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.buttonSignIn {
+    margin-left: 0 !important;
+}
+
+.slide {
+    width: 40%;
+    margin-left: 2rem;
+    height: 100vw;
+}
+
+.SignUp {
+    margin-left: 3rem;
+}

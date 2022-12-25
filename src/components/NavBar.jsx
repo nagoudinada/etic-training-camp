@@ -6,7 +6,6 @@ import home from '../assets/icons/home.svg'
 import fav from '../assets/icons/fav.svg'
 import '../style/NavBarStyle.css'
 
-
 function NavBar() {
     const [userName,setUsername] = useState(null);
 
@@ -22,8 +21,8 @@ function NavBar() {
             </div>
             {
                 !userName ?  <div className='logInOut'>
-                <button>Sing Up</button>
-                <button>Sing In</button>
+                <button className='SingUpInClick'>Sing Up</button>
+                <button className='SingUpInClick'>Sing In</button>
             </div>:      <div id='icons' >
                 <a href="/"><img src={home} alt="/" /></a>
                 <a href="/"><img src={fav} alt="/" /></a>
@@ -31,10 +30,7 @@ function NavBar() {
                 <a href="/"><img src={profile} alt="/" /></a>
             </div>
             }
-
         </nav>
-
-
   )
 }
 
